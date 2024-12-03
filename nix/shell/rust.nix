@@ -44,7 +44,6 @@ let
     stable = {
       buildInputs = buildInputs ++ [
         rustChannels.stable
-        rustChannels.nightly
       ];
 
       inherit shellEnv;
