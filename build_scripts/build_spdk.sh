@@ -265,7 +265,7 @@ function cmd_configure() {
             CONFIGURE_ARGS+=("--target-arch=nehalem" "--without-crypto")
             ;;
         "aarch64-unknown-linux-gnu")
-            CONFIGURE_ARGS+=(" --target-arch=armv8-a+crypto")
+            CONFIGURE_ARGS+=(" --target-arch=armv8-a+crypto+sve")
             ;;
     esac
 
