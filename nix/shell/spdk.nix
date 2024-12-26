@@ -23,7 +23,7 @@ let
 
   # Define CFLAGS based on the architecture
   cflagsValue = if system == "aarch64-linux"
-                then "-march=armv8-a"
+                then "-march=armv8-a+sve"
                 else "-msse4";
 
   # spdk-path argument overrides spdk argument.
